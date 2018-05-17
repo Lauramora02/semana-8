@@ -1,0 +1,19 @@
+ .row {
+  display: flex;
+}
+
+.column-1, .column-2 {
+  flex: 1;
+  border:3px white;
+  text-align: center;
+  margin: 80px;
+  padding: 170px;
+  background-color: brown;
+ color: orange;
+ font-size: 25px
+}
+
+.row div img {
+  border-radius: 100%;
+  width: 470px;
+}
